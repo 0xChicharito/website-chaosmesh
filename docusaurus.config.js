@@ -80,9 +80,9 @@ const config = {
     },
     navbar: {
       hideOnScroll: true,
-      title: 'Chaos Mesh',
+      title: 'Node 9X',
       logo: {
-        alt: 'Chaos Mesh',
+        alt: 'Node 9X',
         src: 'img/logos/logo-mini.svg',
         srcDark: 'img/logos/logo-mini-white.svg',
       },
@@ -120,6 +120,7 @@ const config = {
             },
           ],
         },
+        
         {
           title: 'Community',
           items: [
@@ -139,7 +140,7 @@ const config = {
         },
       ],
       copyright: `
-        <p style="font-weight: 500;">Copyright © Node 9X ${new Date().getFullYear()} </p>
+        <p style="font-weight: 500;">Copyright © From Node 9X With Love 💖 ${new Date().getFullYear()} </p>
       `,
     },
     prism: {
