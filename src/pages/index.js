@@ -138,26 +138,6 @@ function Home() {
           </div>
         </div>
 
-      //  <div className="hero">
-      //    <div className="tw-container tw-mx-auto max-lg:tw-px-4">
-      //      <div className="tw-max-w-[800px] tw-mb-12 tw-mx-auto tw-text-center">
-      //        {/* TODO: add translation. */}
-      //        <h2 className="tw-text-4xl xl:tw-text-5xl">
-     //           Make <span className={styles.heroTitle}>Cloud Native + Chaos Engineering</span> simple and
-      //          straightforward.
-     //         </h2>
-      //        <p className="lg:tw-text-lg tw-font-medium">
-       //         Based on the principles of Chaos Engineering, Chaos Mesh abstracts real-world events into objects that
-     //           can be directly applied, hiding the trivial details.
-     //         </p>
-   //         </div>
-
-    //        <div className="tw-grid tw-gap-8 lg:tw-grid-rows-2 lg:tw-grid-cols-6">
- //             <Features />
- //          </div>
-  //        </div>
-  //      </div>
-
         <div className="hero">
           <div className="tw-container tw-mx-auto max-lg:tw-px-4">
             <div className="tw-max-w-[800px] tw-mx-auto tw-text-center">
