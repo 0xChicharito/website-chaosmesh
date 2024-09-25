@@ -142,6 +142,23 @@ const config = {
       copyright: `
         <p style="font-weight: 500;">Copyright © From Node 9X With Love 💖 ${new Date().getFullYear()} </p>
       `,
+        style: `
+    <style>
+      .footer__links {
+        display: flex;
+        justify-content: flex-end; /* Đẩy Documentation và Community về phía phải */
+        gap: 40px; /* Điều chỉnh khoảng cách giữa hai cột */
+      }
+      .footer__links ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .footer__links li {
+        margin-bottom: 10px;
+      }
+    </style>
+  `,
     },
     prism: {
       theme: prismThemes.github,
