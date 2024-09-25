@@ -26,7 +26,7 @@ import styles from './index.module.css'
 gsap.registerPlugin(ScrollTrigger)
 
 const description =
-  'Chaos Mesh brings various types of fault simulation to Kubernetes and has an enormous capability to orchestrate fault scenarios. It helps you conveniently simulate various abnormalities that might occur in reality during the development, testing, and production environments and find potential problems in the system.'
+  'Our mission is keeping stable of node and provide best services for project and community. Running a node is essential for maintaining the integrity, security, and decentralization of blockchain networks.'
 
 function Home() {
   const { siteConfig } = useDocusaurusContext()
@@ -75,11 +75,11 @@ function Home() {
                     styles.heroTitle
                   )}
                 >
-                  <span>Break</span>
+                  <span>Maintain</span>
                   <br />
                   Your System
                   <br />
-                  <span>Constructively.</span>
+                  <span>Continuously.</span>
                 </h1>
                 <p className="lg:tw-text-lg tw-font-medium tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur">
                   {/* TODO: add translation. */}
@@ -93,7 +93,7 @@ function Home() {
                     Get Started →
                   </Link>
                   <Link
-                    to="https://github.com/chaos-mesh/chaos-mesh"
+                    to="https://github.com/0xChicharito"
                     className="tw-btn tw-btn-neutral tw-gap-2 dark:tw-glass hover:tw-text-white hover:-tw-translate-y-[3px]"
                   >
                     <IconOctocat className="tw-w-4 tw-h-4 tw-fill-white" />
