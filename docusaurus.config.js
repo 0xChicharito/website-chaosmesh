@@ -7,12 +7,12 @@ import { themes as prismThemes } from 'prism-react-renderer'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Chaos Mesh',
-  tagline: 'A Powerful Chaos Engineering Platform for Kubernetes',
+  title: 'Node 9X',
+  tagline: 'Trusted Node Operator',
   favicon: '/img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://chaos-mesh.org',
+  url: 'https://node9x.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -93,28 +93,12 @@ const config = {
           label: 'Blog',
         },
         {
-          href: 'https://community.cncf.io/chaos-mesh-community/',
+          href: 'https://t.me/DogWalter',
           label: 'Community Group',
         },
 
         {
-          type: 'docsVersionDropdown',
-          dropdownItemsAfter: [
-            {
-              type: 'html',
-              value: '<hr style="margin: .5em 0;" />',
-            },
-            { to: '/versions', label: 'All Versions' },
-            { to: '/supported-releases', label: 'Supported Releases' },
-          ],
-          position: 'right',
-        },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/chaos-mesh/chaos-mesh',
+          href: 'https://github.com/0xChicharito',
           className: 'header-github-link',
           'aria-label': 'GitHub',
           position: 'right',
@@ -128,19 +112,11 @@ const config = {
           items: [
             {
               label: 'Quick Start',
-              to: 'docs/quick-start',
+              to: 'https://service.node9x.com',
             },
             {
-              label: 'Run a Chaos Experiment',
-              to: 'docs/run-a-chaos-experiment',
-            },
-            {
-              label: 'Developer Guide Overview',
-              to: 'docs/developer-guide-overview',
-            },
-            {
-              label: 'FAQs',
-              to: 'docs/faqs',
+              label: 'Run a node',
+              to: 'https://service.node9x.com',
             },
           ],
         },
@@ -148,48 +124,22 @@ const config = {
           title: 'Community',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'CNCF Community Group',
-              href: 'https://community.cncf.io/chaos-mesh-community/',
+              label: 'Community Group',
+              href: 'https://t.me/DogWalter',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/chaos-mesh/chaos-mesh',
-            },
-            {
-              label: 'Slack (#project-chaos-mesh)',
-              href: 'https://slack.cncf.io/',
+              href: 'https://github.com/0xChicharito',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/chaos_mesh',
-            },
-          ],
-        },
-        {
-          title: 'Acknowledgements',
-          items: [
-            {
-              html: `
-              <ul>
-                <li>
-                  <p>Thanks to netlify's Open Source Plan.</p>
-                  <a href="https://www.netlify.com" target="_blank"><img src="https://www.netlify.com/v3/img/components/netlify-color-bg.svg" alt="Deploys by Netlify" /></a>
-                </li>
-                <li>
-                  <p>Thanks for the <a href="https://storyset.com/technology">Technology illustrations by Storyset</a>.</p>
-                </li>
-              </ul>`,
+              href: 'https://x.com/0xchicharito',
             },
           ],
         },
       ],
       copyright: `
-        <p style="font-weight: 500;">Copyright © Chaos Mesh Authors ${new Date().getFullYear()} | Documentation Distributed under CC-BY-4.0</p>
-        © ${new Date().getFullYear()} The Linux Foundation. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage/"> Trademark Usage</a> page.
+        <p style="font-weight: 500;">Copyright © Node 9X ${new Date().getFullYear()} </p>
       `,
     },
     prism: {
