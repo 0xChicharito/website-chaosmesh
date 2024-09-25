@@ -162,7 +162,7 @@ function Home() {
 
             <div className="tw-flex tw-justify-center tw-mt-12">
               <Link
-                to="/docs/simulate-pod-chaos-on-kubernetes"
+                to="https://explorer.node9x.com"
                 className="tw-btn tw-btn-primary tw-gap-2 hover:tw-text-white hover:-tw-translate-y-[3px]"
               >
                 <IconLibrary className="tw-w-4 tw-h-4 tw-fill-white" />
@@ -171,45 +171,6 @@ function Home() {
             </div>
             <div className="tw-grid tw-gap-8 lg:tw-grid-cols-3 tw-my-12">
               <CodeGrid />
-            </div>
-          </div>
-        </div>
-
-        <div className="hero tw-relative">
-          <div className="tw-absolute tw-top-[-50px] tw-left-0 md:tw-top-[-100px] xl:tw-top-[-200px] tw-w-full">
-            <img src="/img/home/curve-divider.svg" />
-          </div>
-          <div className="tw-container tw-mx-auto max-lg:tw-px-4">
-            <div className="tw-relative tw-flex tw-flex-col lg:tw-flex-row lg:tw-items-center tw-gap-8">
-              <div className="tw-flex-1">
-                <div className="xl:tw-w-[90%]">
-                  {/* TODO: add translation. */}
-                  <h2 className="tw-text-4xl xl:tw-text-5xl">
-                    Orchestrate complex fault scenarios with <span className={styles.heroTitle}>Workflows</span>.
-                  </h2>
-                  <p className="lg:tw-text-lg tw-font-medium">
-                    Real-world failures are often not isolated causes.Chaos Mesh has built-in workflows that allow you
-                    to experiment serially or in parallel at will to build walkthroughs that fit the architecture.
-                  </p>
-                  <div className="tw-flex tw-gap-4 tw-mb-6">
-                    <Card>
-                      <h4 className="text-lg">Suspend</h4>
-                      <p>You can also use the suspend node to simulate a temporary recovery.</p>
-                    </Card>
-                    <Card>
-                      <h4 className="text-lg">Status Check</h4>
-                      <p>You can also use customized status checks to inform the cluster status.</p>
-                    </Card>
-                  </div>
-                  <Link
-                    to="/docs/create-chaos-mesh-workflow/"
-                    className="tw-btn tw-btn-primary tw-gap-2 hover:tw-text-white hover:-tw-translate-y-[3px]"
-                  >
-                    Start Creating →
-                  </Link>
-                </div>
-              </div>
-              <div className={clsx('tw-flex-[1.5] tw-rounded-2xl', styles.workflowsImg)} />
             </div>
           </div>
         </div>
