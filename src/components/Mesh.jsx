@@ -218,10 +218,10 @@ export default function Mesh() {
             }
           )
           new Typewriter('.mesh-text', { delay: 50 })
-            .typeString('Injecting NetworkChaos/loss...')
+            .typeString('API,Cosmos RPC,EVM JSON RPC')
             .pauseFor(500)
             .deleteAll()
-            .typeString('Simulating packet loss...')
+            .typeString('Snapshot')
             .pauseFor(2000)
             .deleteAll()
             .typeString('⏳ Recovering...')
