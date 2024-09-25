@@ -117,7 +117,7 @@ function Home() {
         <div className="hero">
           <div className="tw-container tw-mx-auto max-lg:tw-px-4 tw-text-center">
             <h2 className="tw-text-lg">
-              <Translate id="home.whoisusing">Users of Chaos Mesh</Translate>
+              <Translate id="home.whoisusing">Node Operating</Translate>
             </h2>
             <div className="max-md:tw-overflow-x-auto dark:tw-invert dark:tw-saturate-0">
               <div className="row max-md:tw-w-[1280px]">
@@ -138,38 +138,36 @@ function Home() {
           </div>
         </div>
 
-        <div className="hero">
-          <div className="tw-container tw-mx-auto max-lg:tw-px-4">
-            <div className="tw-max-w-[800px] tw-mb-12 tw-mx-auto tw-text-center">
-              {/* TODO: add translation. */}
-              <h2 className="tw-text-4xl xl:tw-text-5xl">
-                Make <span className={styles.heroTitle}>Cloud Native + Chaos Engineering</span> simple and
-                straightforward.
-              </h2>
-              <p className="lg:tw-text-lg tw-font-medium">
-                Based on the principles of Chaos Engineering, Chaos Mesh abstracts real-world events into objects that
-                can be directly applied, hiding the trivial details.
-              </p>
-            </div>
+      //  <div className="hero">
+      //    <div className="tw-container tw-mx-auto max-lg:tw-px-4">
+      //      <div className="tw-max-w-[800px] tw-mb-12 tw-mx-auto tw-text-center">
+      //        {/* TODO: add translation. */}
+      //        <h2 className="tw-text-4xl xl:tw-text-5xl">
+     //           Make <span className={styles.heroTitle}>Cloud Native + Chaos Engineering</span> simple and
+      //          straightforward.
+     //         </h2>
+      //        <p className="lg:tw-text-lg tw-font-medium">
+       //         Based on the principles of Chaos Engineering, Chaos Mesh abstracts real-world events into objects that
+     //           can be directly applied, hiding the trivial details.
+     //         </p>
+   //         </div>
 
-            <div className="tw-grid tw-gap-8 lg:tw-grid-rows-2 lg:tw-grid-cols-6">
-              <Features />
-            </div>
-          </div>
-        </div>
+    //        <div className="tw-grid tw-gap-8 lg:tw-grid-rows-2 lg:tw-grid-cols-6">
+ //             <Features />
+ //          </div>
+  //        </div>
+  //      </div>
 
         <div className="hero">
           <div className="tw-container tw-mx-auto max-lg:tw-px-4">
             <div className="tw-max-w-[800px] tw-mx-auto tw-text-center">
               {/* TODO: add translation. */}
               <h2 className="tw-text-4xl xl:tw-text-5xl">
-                <span className={styles.heroTitle}>Wide variety</span> of failure types.
+                <span className={styles.heroTitle}>Wide variety</span> of dedicated servers.
               </h2>
               <p className="lg:tw-text-lg tw-font-medium">
                 <Translate id="home.failuretypes.1">
-                  Chaos Mesh initially started from a distributed system perspective, fully considering its possible
-                  failures, thus providing more comprehensive and fine-grained fault types to help users with fault
-                  injection for networks, disks, file systems, operating systems, etc.
+                  We are using many dedicated servers from many suppliers to ensure we always maintain uptime.
                 </Translate>
               </p>
             </div>
