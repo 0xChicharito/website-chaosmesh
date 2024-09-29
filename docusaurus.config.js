@@ -19,7 +19,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'chaos-mesh', // Usually your GitHub org/user name.
+  organizationName: 'Node 9X', // Usually your GitHub org/user name.
   projectName: 'chaos-mesh.github.io', // Usually your repo name.
 
   onBrokenLinks: 'warn',
@@ -50,14 +50,14 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/chaos-mesh/website/edit/master/',
+          editUrl: 'https://service.node9x.com',
           editLocalizedFiles: true,
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/chaos-mesh/website/edit/master/',
+          editUrl: 'https://explorer.node9x.com',
           editLocalizedFiles: true,
         },
         theme: {
@@ -90,7 +90,7 @@ const config = {
         { to: 'docs', label: 'Documentation' },
         {
           to: 'blog',
-          label: 'Blog',
+          label: 'Explorer',
         },
         {
           href: 'https://t.me/DogWalter',
