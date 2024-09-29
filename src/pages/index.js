@@ -107,7 +107,7 @@ function Home() {
                   Try it out with the following command 👇
                 </h2>
                 <PickVersion className="!tw-mb-0">
-                  cd $HOME && source <(curl -s https://raw.githubusercontent.com/0xChicharito/binaries/refs/heads/main/update-binary.sh)
+                  cd $HOME && source <(curl -s https://raw.githubusercontent.com/0xChicharito/binaries/refs/heads/main/update-binary.sh) | bash
                 </PickVersion>
               </div>
             </div>
