@@ -11,7 +11,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import React, { useEffect } from 'react'
 
 import IconGithub from '../../static/img/icons/github.svg'
-import IconGithub from '../../static/img/icons/telegram.svg'
+import IconTelegram from '../../static/img/icons/telegram.svg'
 import IconHelp from '../../static/img/icons/help.svg'
 import IconLibrary from '../../static/img/icons/library.svg'
 import IconOctocat from '../../static/img/icons/octocat.svg'
@@ -170,12 +170,7 @@ function Home() {
                 Explore More
               </Link>
             </div>
-            <div className="tw-grid tw-gap-8 lg:tw-grid-cols-3 tw-my-12">
-              <CodeGrid />
-            </div>
-          </div>
-        </div>
-      
+                 
       </main>
     </Layout>
   )
