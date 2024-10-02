@@ -96,7 +96,12 @@ const config = {
           href: 'https://t.me/DogWalter',
           label: 'Community Group',
         },
-
+        {
+          href: 'https://t.me/Oxchicharito',
+          className: 'header-telegram-link',
+          'aria-label': 'Telegram',
+          position: 'right',
+        },
         {
           href: 'https://github.com/0xChicharito',
           className: 'header-github-link',
@@ -106,39 +111,6 @@ const config = {
       ],
     },
     footer: {
-      links: [
-        {
-          title: 'Documentation',
-          items: [
-            {
-              label: 'Quick Start',
-              to: 'https://service.node9x.com',
-            },
-            {
-              label: 'Run a node',
-              to: 'https://service.node9x.com',
-            },
-          ],
-        },
-        
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Community Group',
-              href: 'https://t.me/DogWalter',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/0xChicharito',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://x.com/0xchicharito',
-            },
-          ],
-        },
-      ],
       copyright: `
         <p style="font-weight: 500;">Copyright © From Node 9X With Love 💖 ${new Date().getFullYear()} </p>
       `,
