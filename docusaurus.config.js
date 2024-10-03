@@ -115,25 +115,6 @@ const config = {
         <p style="font-weight: 500;">Copyright © From Node 9X With Love 💖 ${new Date().getFullYear()} </p>
       `,
     
-    },
-    prism: {
-      theme: prismThemes.github,
-      darkTheme: {
-        plain: prismThemes.vsDark.plain,
-        styles: [
-          ...prismThemes.vsDark.styles,
-          {
-            types: ['function', 'keyword'],
-            style: {
-              color: '#f25c7c',
-            },
-          },
-        ],
-      },
-      additionalLanguages: ['bash'],
-    },
-  },
-
   plugins: [
     './docusaurus-tailwind-v3',
     ['@gracefullight/docusaurus-plugin-microsoft-clarity', { projectId: 'lggqck9srz' }],
