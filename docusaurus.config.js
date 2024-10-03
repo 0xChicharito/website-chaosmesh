@@ -114,7 +114,10 @@ const config = {
       copyright: `
         <p style="font-weight: 500;">Copyright © From Node 9X With Love 💖 ${new Date().getFullYear()} </p>
       `,
-    
+        },
+      additionalLanguages: ['bash'],
+    },
+  },
   plugins: [
     './docusaurus-tailwind-v3',
     ['@gracefullight/docusaurus-plugin-microsoft-clarity', { projectId: 'lggqck9srz' }],
