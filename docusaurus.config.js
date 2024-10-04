@@ -102,6 +102,7 @@ const config = {
           'aria-label': 'Telegram',
           position: 'right',
         },
+        
         {
           href: 'https://github.com/0xChicharito',
           className: 'header-github-link',
@@ -114,6 +115,7 @@ const config = {
       copyright: `
         <p style="font-weight: 500;">Copyright © From Node 9X With Love 💖 ${new Date().getFullYear()} </p>
       `,
+      
        },
     prism: {
       theme: prismThemes.github,
