@@ -167,9 +167,7 @@ function Home() {
               >
                 <IconLibrary className="tw-w-4 tw-h-4 tw-fill-white" />
                 Explore More
-              </Link>
-            </div>
-          </div>      
+              </Link>      
       </main>
     </Layout>
   )
