@@ -169,7 +169,7 @@ function Home() {
                 Explore More
               </Link>
             </div>
-                 
+          </div>      
       </main>
     </Layout>
   )
