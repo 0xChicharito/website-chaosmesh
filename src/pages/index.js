@@ -167,7 +167,13 @@ function Home() {
               >
                 <IconLibrary className="tw-w-4 tw-h-4 tw-fill-white" />
                 Explore More
-              </Link>      
+              </Link>
+            </div>
+            <div className="tw-grid tw-gap-8 lg:tw-grid-cols-3 tw-my-12">
+              <CodeGrid />
+            </div>
+          </div>
+        </div>
       </main>
     </Layout>
   )
